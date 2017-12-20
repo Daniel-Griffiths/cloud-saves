@@ -10,3 +10,12 @@ C:\Users\Daniel\Documents\Visual Studio 2015\Projects\AOT-Cloud-Saves\AOT-Cloud-
 C:\Users\Daniel\Documents\Visual Studio 2015\Projects\AOT-Cloud-Saves\AOT-Cloud-Saves\obj\Debug\CloudSaves.csprojResolveAssemblyReference.cache
 C:\Users\Daniel\Documents\Visual Studio 2015\Projects\AOT-Cloud-Saves\AOT-Cloud-Saves\bin\Debug\CloudSaves.exe.config
 C:\Users\Daniel\Documents\Visual Studio 2015\Projects\AOT-Cloud-Saves\CloudSaves\bin\Debug\CloudSaves.exe.config
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\AOT-Cloud-Saves\CloudSaves\bin\Debug\CloudSaves.exe
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\AOT-Cloud-Saves\CloudSaves\bin\Debug\CloudSaves.pdb
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\AOT-Cloud-Saves\CloudSaves\obj\Debug\CloudSaves.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\AOT-Cloud-Saves\CloudSaves\obj\Debug\CloudSaves.Form1.resources
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\AOT-Cloud-Saves\CloudSaves\obj\Debug\CloudSaves.ConfigForm.resources
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\AOT-Cloud-Saves\CloudSaves\obj\Debug\CloudSaves.Properties.Resources.resources
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\AOT-Cloud-Saves\CloudSaves\obj\Debug\CloudSaves.csproj.GenerateResource.Cache
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\AOT-Cloud-Saves\CloudSaves\obj\Debug\CloudSaves.exe
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\AOT-Cloud-Saves\CloudSaves\obj\Debug\CloudSaves.pdb

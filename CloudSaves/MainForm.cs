@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,9 +13,15 @@ namespace CloudSaves
 {
     public partial class Form1 : Form
     {
+        private Array settings = Directory.GetFiles(Directory.GetCurrentDirectory() + "\\config\\");
+
         public Form1() { InitializeComponent(); }
 
-        private void Form1_Load(object sender, EventArgs e) { }
+        private void Form1_Load(object sender, EventArgs e) {
+            foreach (string save in this.settings) {
+                this.settingsComboBox.Items.Add(Path.GetFileNameWithoutExtension(save));
+            }
+        }
 
         private void SyncSaveButton_Click(object sender, EventArgs e)
         {

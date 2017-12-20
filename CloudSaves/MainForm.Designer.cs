@@ -32,7 +32,7 @@ namespace CloudSaves
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.SyncSaveButton = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.settingsComboBox = new System.Windows.Forms.ComboBox();
             this.ConfigButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -48,13 +48,13 @@ namespace CloudSaves
             this.SyncSaveButton.UseVisualStyleBackColor = false;
             this.SyncSaveButton.Click += new System.EventHandler(this.SyncSaveButton_Click);
             // 
-            // comboBox1
+            // settingsComboBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(13, 13);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(273, 24);
-            this.comboBox1.TabIndex = 4;
+            this.settingsComboBox.FormattingEnabled = true;
+            this.settingsComboBox.Location = new System.Drawing.Point(13, 13);
+            this.settingsComboBox.Name = "settingsComboBox";
+            this.settingsComboBox.Size = new System.Drawing.Size(273, 24);
+            this.settingsComboBox.TabIndex = 4;
             // 
             // ConfigButton
             // 
@@ -74,7 +74,7 @@ namespace CloudSaves
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(304, 93);
             this.Controls.Add(this.ConfigButton);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.settingsComboBox);
             this.Controls.Add(this.SyncSaveButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -88,7 +88,7 @@ namespace CloudSaves
 
         #endregion
         private System.Windows.Forms.Button SyncSaveButton;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox settingsComboBox;
         private System.Windows.Forms.Button ConfigButton;
     }
 }
