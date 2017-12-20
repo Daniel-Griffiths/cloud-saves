@@ -19,7 +19,9 @@ namespace CloudSaves
 
         private void Form1_Load(object sender, EventArgs e) {
             foreach (string save in this.settings) {
-                this.settingsComboBox.Items.Add(Path.GetFileNameWithoutExtension(save));
+                DataGridViewRow row = (DataGridViewRow)configDataGridView.RowTemplate.Clone();
+                row.CreateCells(configDataGridView, Path.GetFileNameWithoutExtension(save));
+                configDataGridView.Rows.Add(row);
             }
         }
 
